@@ -1,0 +1,46 @@
+{
+  "name": "wp-minimalist-boilerplate",
+  "version": "1.0.0",
+  "author": "Arkadiusz Pabisz",
+  "description": "Minimal webpack boilerplate with HMR and sass",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jpggvilaca/webpack-boilerplate"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack serve",
+    "dev": "webpack serve --host 0.0.0.0",
+    "build": "webpack",
+    "prod": "webpack --config ./webpack.config.prod.js"
+  },
+  "keywords": [
+    "webpack",
+    "boilerplate",
+    "hmr",
+    "sass"
+  ],
+  "license": "ISC",
+  "browserslist": "> 0.3%, not IE 11",
+  "devDependencies": {
+    "@babel/core": "^7.14.3",
+    "@babel/preset-env": "^7.14.4",
+    "autoprefixer": "^10.2.6",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^8.2.2",
+    "copy-webpack-plugin": "^9.0.0",
+    "css-hot-loader": "^1.4.4",
+    "css-loader": "^5.2.6",
+    "file-loader": "^6.2.0",
+    "html-webpack-plugin": "^5.3.1",
+    "image-webpack-loader": "^7.0.1",
+    "mini-css-extract-plugin": "^1.6.0",
+    "node-sass": "^6.0.0",
+    "postcss-loader": "^5.3.0",
+    "sass-loader": "^12.0.0",
+    "style-loader": "^2.0.0",
+    "webpack": "^5.38.1",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  }
+}
